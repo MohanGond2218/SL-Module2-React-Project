@@ -10,6 +10,7 @@ import NameAlert from "./components/NameAlert";
 import UserInfo from "./components/UserInfo";
 import StyleComponent from "./components/StyleComponent";
 import ArraysState from "./components/ArraysState";
+import BikePractice from "./components/BikePractice";
 
 class FirstApp extends React.Component {
   render() {
@@ -26,9 +27,10 @@ class FirstApp extends React.Component {
         <UserInfo />
         <StyleComponent />
         <ArraysState />
+         <NumberList />
         */}
 
-        <NumberList />
+        <BikePractice />
       </div>
     );
   }
